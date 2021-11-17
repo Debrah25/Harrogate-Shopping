@@ -12,8 +12,8 @@ export default function Description({route, navigation}) {
                {route.params.product.title} 
             </Text>
         </View>
-        <TouchableOpacity onPress={()=>navigation.navigate("Cart")} style={{margin:50, position: 'relative',bottom:-180, backgroundColor:"white", height:100,alignContent:"bottom",borderRadius:30,}}>
-                <Text style={{fontSize:40,fontColor:"white"}}>Add Cart</Text>
+        <TouchableOpacity onPress={()=>navigation.navigate("Cart")} style={{margin:20,bottom:-230, backgroundColor:"black", height:50,alignContent:"bottom",borderRadius:60,width:380,}}>
+                <Text style={{fontSize:40,color:"white",textAlign:"center"}}>Add To Cart</Text>
             </TouchableOpacity>
         </SafeAreaView>
     )

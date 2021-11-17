@@ -6,7 +6,7 @@ export default function Cart() {
     return (
         <SafeAreaView>
         <View justifyContent="center">
-            <Text style={{fontSize:200}}>Cart</Text>
+            <Text style={{fontSize:100,}}></Text>
         </View>
         </SafeAreaView>
     )
